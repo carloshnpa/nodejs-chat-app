@@ -1,4 +1,4 @@
-const socket = io();
+const socket = io('http://172.19.24.14:3000');
 
 // Elements
 const $messageForm = document.querySelector("#message-form");
